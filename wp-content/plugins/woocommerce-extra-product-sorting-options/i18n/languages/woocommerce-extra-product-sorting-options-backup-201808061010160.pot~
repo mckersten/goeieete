@@ -1,0 +1,226 @@
+# Copyright (C) 2018 SkyVerge
+# This file is distributed under the GNU General Public License v3.0.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Extra Product Sorting Options 2.7.1\n"
+"Report-Msgid-Bugs-To: https://github.com/skyverge/woocommerce-extra-product-"
+"sorting-options/issues\n"
+"POT-Creation-Date: 2018-08-06 10:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: build/woocommerce-extra-product-sorting-options.php:128
+#: build/woocommerce-extra-product-sorting-options.php:199
+#: woocommerce-extra-product-sorting-options.php:128
+#: woocommerce-extra-product-sorting-options.php:199
+msgid "New Default Sorting Label"
+msgstr ""
+
+#: build/woocommerce-extra-product-sorting-options.php:132
+#: build/woocommerce-extra-product-sorting-options.php:200
+#: woocommerce-extra-product-sorting-options.php:132
+#: woocommerce-extra-product-sorting-options.php:200
+msgid ""
+"If desired, enter a new name for the default sorting option, e.g., &quot;Our "
+"Sorting&quot;"
+msgstr ""
+
+#: build/woocommerce-extra-product-sorting-options.php:136
+#: build/woocommerce-extra-product-sorting-options.php:222
+#: woocommerce-extra-product-sorting-options.php:136
+#: woocommerce-extra-product-sorting-options.php:222
+msgid "Add Product Sorting:"
+msgstr ""
+
+#: build/woocommerce-extra-product-sorting-options.php:137
+#: woocommerce-extra-product-sorting-options.php:137
+msgid ""
+"Select sorting options to add to your shop. \"Available Stock\" sorts "
+"products with the most stock first."
+msgstr ""
+
+#. translators: Placeholders: %1$s - <strong>, %2$s - </strong>, %3$s - <a>,
+#. %4$s - </a>
+#: build/woocommerce-extra-product-sorting-options.php:139
+#: woocommerce-extra-product-sorting-options.php:139
+msgid ""
+"\"On-sale First\" shows %1$ssimple%2$s products on sale first; %3$ssee "
+"documentation%4$s for more details."
+msgstr ""
+
+#: build/woocommerce-extra-product-sorting-options.php:149
+#: woocommerce-extra-product-sorting-options.php:149
+msgid "Select sorting options to add to your shop."
+msgstr ""
+
+#. translators: Placeholders: %1$s - <a>, %2$s - </a>
+#: build/woocommerce-extra-product-sorting-options.php:224
+#: woocommerce-extra-product-sorting-options.php:224
+msgid ""
+"Select sorting options to add to your shop. %1$ssee documentation%2$s for "
+"more details."
+msgstr ""
+
+#: build/woocommerce-extra-product-sorting-options.php:265
+#: woocommerce-extra-product-sorting-options.php:265
+msgid "Name: A to Z"
+msgstr ""
+
+#: build/woocommerce-extra-product-sorting-options.php:266
+#: woocommerce-extra-product-sorting-options.php:266
+msgid "Name: Z to A"
+msgstr ""
+
+#: build/woocommerce-extra-product-sorting-options.php:267
+#: woocommerce-extra-product-sorting-options.php:267
+msgid "Available Stock"
+msgstr ""
+
+#: build/woocommerce-extra-product-sorting-options.php:268
+#: woocommerce-extra-product-sorting-options.php:268
+msgid "Review Count"
+msgstr ""
+
+#: build/woocommerce-extra-product-sorting-options.php:269
+#: woocommerce-extra-product-sorting-options.php:269
+msgid "On-sale First"
+msgstr ""
+
+#: build/woocommerce-extra-product-sorting-options.php:273
+#: woocommerce-extra-product-sorting-options.php:273
+msgid "Featured First"
+msgstr ""
+
+#: build/woocommerce-extra-product-sorting-options.php:294
+#: woocommerce-extra-product-sorting-options.php:294
+msgid "Default sorting"
+msgstr ""
+
+#: build/woocommerce-extra-product-sorting-options.php:306
+#: woocommerce-extra-product-sorting-options.php:306
+msgctxt "Sorteer op naam: A tot Z"
+msgid "Sort by name: A to Z"
+msgstr ""
+
+#: build/woocommerce-extra-product-sorting-options.php:310
+#: woocommerce-extra-product-sorting-options.php:310
+msgctxt "Sorteer op naam: Z tot A"
+msgid "Sort by name: Z to A"
+msgstr ""
+
+#: build/woocommerce-extra-product-sorting-options.php:314
+#: woocommerce-extra-product-sorting-options.php:314
+msgid "Sort by availability"
+msgstr ""
+
+#: build/woocommerce-extra-product-sorting-options.php:318
+#: woocommerce-extra-product-sorting-options.php:318
+msgid "Sort by review count"
+msgstr ""
+
+#: build/woocommerce-extra-product-sorting-options.php:322
+#: woocommerce-extra-product-sorting-options.php:322
+msgid "Show sale items first"
+msgstr ""
+
+#: build/woocommerce-extra-product-sorting-options.php:327
+#: woocommerce-extra-product-sorting-options.php:327
+msgid "Show featured items first"
+msgstr ""
+
+#. translators: Placeholders: %s - plugin name
+#: build/woocommerce-extra-product-sorting-options.php:443
+#: woocommerce-extra-product-sorting-options.php:443
+msgid "You cannot clone instances of %s."
+msgstr ""
+
+#. translators: Placeholders: %s - plugin name
+#: build/woocommerce-extra-product-sorting-options.php:454
+#: woocommerce-extra-product-sorting-options.php:454
+msgid "You cannot unserialize instances of %s."
+msgstr ""
+
+#: build/woocommerce-extra-product-sorting-options.php:474
+#: woocommerce-extra-product-sorting-options.php:474
+msgid "Configure"
+msgstr ""
+
+#: build/woocommerce-extra-product-sorting-options.php:475
+#: woocommerce-extra-product-sorting-options.php:475
+msgid "FAQ"
+msgstr ""
+
+#: build/woocommerce-extra-product-sorting-options.php:476
+#: woocommerce-extra-product-sorting-options.php:476
+msgid "Support"
+msgstr ""
+
+#. translators: Placeholders: %1$s <strong>, %2$s - </strong>, %3$s and %5$s -
+#. <a> tags, %4$s - </a>
+#: build/woocommerce-extra-product-sorting-options.php:521
+#: woocommerce-extra-product-sorting-options.php:521
+msgid ""
+"%1$sWooCommerce Extra Product Sorting Options is inactive.%2$s This plugin "
+"requires WooCommerce 2.6.14 or newer. Please %3$supdate WooCommerce%4$s or "
+"%5$srun the WooCommerce database upgrade%4$s."
+msgstr ""
+
+#. translators: Placeholders: %1$s - <strong>, %2$s - <strong>, %3$s - <a>,
+#. %4$s - </a>
+#: build/woocommerce-extra-product-sorting-options.php:676
+#: woocommerce-extra-product-sorting-options.php:676
+msgid ""
+"%1$sWooCommerce Extra Product Sorting Options settings have changed.%2$s "
+"Random sorting is now disabled. If you need to re-add this option, please "
+"%3$sview our plugin notes%4$s."
+msgstr ""
+
+#. translators: Placeholders: %1$s - <strong>, %2$s - <strong>, %3$s - <a>,
+#. %4$s - </a>
+#: build/woocommerce-extra-product-sorting-options.php:698
+#: woocommerce-extra-product-sorting-options.php:698
+msgid ""
+"%1$sWooCommerce Extra Product Sorting Options settings have changed.%2$s "
+"Featured sorting is no longer possible with WooCommerce 3.0+ as this product "
+"data has changed. Please %3$sview our plugin notes%4$s for more details."
+msgstr ""
+
+#. translators: Placeholders: %1$s - <strong>, %2$s - <strong>, %3$s - <a>,
+#. %4$s - </a>
+#: build/woocommerce-extra-product-sorting-options.php:703
+#: woocommerce-extra-product-sorting-options.php:703
+msgid ""
+"Please note: %1$sWooCommerce Extra Product Sorting Options settings%2$s will "
+"change when you upgrade to WooCommerce 3.0+. Featured sorting is not "
+"possible with WooCommerce 3.0+ as this product data will change. Please "
+"%3$sview our plugin notes%4$s for more details."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Extra Product Sorting Options"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"http://www.skyverge.com/product/woocommerce-extra-product-sorting-options/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Rename default sorting and optionally extra product sorting options."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SkyVerge"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.skyverge.com/"
+msgstr ""

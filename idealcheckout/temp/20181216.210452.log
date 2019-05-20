@@ -1,0 +1,26 @@
+
+TEXT: Trying to connect to the database using mysqli with credentials:
+      localhost dkuzhwbn_2019 **password**
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 686
+
+
+TEXT: Succesfully established connection to the database with mysqli
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 693
+
+
+TEXT: Database check completed, status: OK
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 754
+
+
+TEXT: Testing firewall through httpRequest to www.ideal-checkout.nl
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 633
+
+
+TEXT: Fetching peer certificate for: https://www.ideal-checkout.nl:443
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/includes/library.php
+LINE: 826
+

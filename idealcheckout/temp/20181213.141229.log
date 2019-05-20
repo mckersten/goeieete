@@ -1,0 +1,15 @@
+
+TEXT: LOCAL: Removing folder: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 1028
+
+
+TEXT: LOCAL: Removing file: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/configuration/install.php
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 990
+
+
+TEXT: ERROR: Cannot connect to mysqli server. Error in hostname, username and/or password.
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/includes/library.php
+LINE: 1549
+

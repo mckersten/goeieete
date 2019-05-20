@@ -1,0 +1,203 @@
+
+TEXT: Trying to connect to the database using mysqli with credentials:
+      localhost dkuzhwbn_2019 **password**
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 686
+
+
+TEXT: Succesfully established connection to the database with mysqli
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 693
+
+
+TEXT: Database check completed, status: OK
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 754
+
+
+TEXT: Testing firewall through httpRequest to www.ideal-checkout.nl
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 633
+
+
+TEXT: Fetching peer certificate for: https://www.ideal-checkout.nl:443
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/includes/library.php
+LINE: 826
+
+
+TEXT: cURL Retrieved SSL Certificate:
+      *   Trying 2a00:1e28:3:2640::1...
+      * TCP_NODELAY set
+      * Connected to www.ideal-checkout.nl (2a00:1e28:3:2640::1) port 443 (#0)
+      * Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+      * successfully set certificate verify locations:
+      *   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+        CApath: none
+      * NPN, negotiated HTTP1.1
+      * SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+      * Server certificate:
+      *  subject: CN=www.ideal-checkout.nl
+      *  start date: May 24 00:00:00 2018 GMT
+      *  expire date: Jan 26 12:00:00 2019 GMT
+      *  subjectAltName: host "www.ideal-checkout.nl" matched cert's "www.ideal-checkout.nl"
+      *  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=RapidSSL RSA CA 2018
+      *  SSL certificate verify ok.
+      > POST /ping.php HTTP/1.1
+      Host: www.ideal-checkout.nl
+      Accept: */*
+      Content-Length: 102
+      Content-Type: application/x-www-form-urlencoded
+      
+      * upload completely sent off: 102 out of 102 bytes
+      < HTTP/1.1 200 OK
+      < Server: nginx
+      < Date: Thu, 13 Dec 2018 13:35:08 GMT
+      < Content-Type: text/html; charset=UTF-8
+      < Transfer-Encoding: chunked
+      < Connection: keep-alive
+      < Vary: Accept-Encoding
+      < 
+      * Connection #0 to host www.ideal-checkout.nl left intact
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/includes/library.php
+LINE: 690
+
+
+TEXT: Done testing firewall through httpRequest to www.ideal-checkout.nl, returned:OK
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 640
+
+
+TEXT: Firewall check completed, status: OK
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 645
+
+
+TEXT: LOCAL: Creating file: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/configuration/database.php
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 951
+
+
+TEXT: LOCAL: Creating file: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/configuration/install.php
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 951
+
+
+TEXT: Running installation.
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 413
+
+
+TEXT: Changing CHMOD for: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/configuration/authorizedtransfer.php
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 428
+
+
+TEXT: Changing CHMOD for: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/configuration/creditcard.php
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 428
+
+
+TEXT: Changing CHMOD for: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/configuration/database.php
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 428
+
+
+TEXT: Changing CHMOD for: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/configuration/directebanking.php
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 428
+
+
+TEXT: Changing CHMOD for: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/configuration/ideal.php
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 428
+
+
+TEXT: Changing CHMOD for: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/configuration/klarnaaccount.php
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 428
+
+
+TEXT: Changing CHMOD for: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/configuration/klarnainvoice.php
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 428
+
+
+TEXT: Changing CHMOD for: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/configuration/maestro.php
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 428
+
+
+TEXT: Changing CHMOD for: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/configuration/manualtransfer.php
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 428
+
+
+TEXT: Changing CHMOD for: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/configuration/mastercard.php
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 428
+
+
+TEXT: Changing CHMOD for: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/configuration/mistercash.php
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 428
+
+
+TEXT: Changing CHMOD for: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/configuration/paypal.php
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 428
+
+
+TEXT: Changing CHMOD for: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/configuration/paysafecard.php
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 428
+
+
+TEXT: Changing CHMOD for: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/configuration/visa.php
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 428
+
+
+TEXT: Changing CHMOD for: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/configuration/vpay.php
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 428
+
+
+TEXT: Changing CHMOD for: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/temp
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 428
+
+
+TEXT: Changing CHMOD for: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/temp/issuers.cache
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 428
+
+
+TEXT: Creating database table #_idealcheckout
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 433
+
+
+TEXT: Primary installation completed.
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 520
+
+
+TEXT: Creating user.
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 527
+
+
+TEXT: Creating user record #_idealcheckout_users
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 538
+
+
+TEXT: Saving license.
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 581
+
+
+TEXT: Saving license in #_idealcheckout_settings
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/install/includes/install.php
+LINE: 592
+

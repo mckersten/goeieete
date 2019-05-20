@@ -1,0 +1,303 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Ajax Product Filter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-11 07:24+0000\n"
+"PO-Revision-Date: 2018-10-11 07:25+0000\n"
+"Last-Translator: admin <phptesting2018@gmail.com>\n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. Description of the plugin
+msgid "A plugin to filter woocommerce products with AJAX request."
+msgstr ""
+
+#: widgets/widget-price-filter.php:264
+msgid "Add"
+msgstr ""
+
+#: widgets/widget-attribute-filter.php:153
+#: widgets/widget-category-filter.php:130
+msgid "AND"
+msgstr ""
+
+#: widgets/widget-attribute-filter.php:129
+msgid "Attribute"
+msgstr ""
+
+#: widgets/widget-active-filter.php:146
+msgid "Button Text:"
+msgstr ""
+
+#: includes/settings.php:56
+msgid "Change this color according to your theme, eg: #fff"
+msgstr ""
+
+#: includes/settings.php:70
+msgid "Check if to enable scroll to top after updating shop loop."
+msgstr ""
+
+#: includes/settings.php:63
+msgid "Check if you want to sort your products via ajax."
+msgstr ""
+
+#: includes/functions.php:511
+#, php-format
+msgid "Choose %s"
+msgstr ""
+
+#: includes/functions.php:513
+msgid "Choose category"
+msgstr ""
+
+#: includes/settings.php:104
+msgid "Clear Transients"
+msgstr ""
+
+#: includes/settings.php:89
+msgid "Custom JavaScript after update"
+msgstr ""
+
+#: includes/settings.php:97
+msgid "Disable Transients"
+msgstr ""
+
+#: widgets/widget-price-filter.php:234
+msgid "Display Type:"
+msgstr ""
+
+#: widgets/widget-attribute-filter.php:147
+#: widgets/widget-category-filter.php:124
+msgid "Dropdown"
+msgstr ""
+
+#: includes/settings.php:82
+msgid "Enable Font Awesome"
+msgstr ""
+
+#: widgets/widget-attribute-filter.php:159
+#: widgets/widget-category-filter.php:136
+msgid "Enable multiple filter"
+msgstr ""
+
+#: includes/settings.php:23
+msgid "Filter has been applied and that may modify the settings below."
+msgstr ""
+
+#: widgets/widget-attribute-filter.php:14
+msgid "Filter woocommerce products by attribute."
+msgstr ""
+
+#: widgets/widget-category-filter.php:14
+msgid "Filter woocommerce products by category."
+msgstr ""
+
+#: widgets/widget-price-filter.php:14
+msgid "Filter woocommerce products by price."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://github.com/shamimmoeen"
+msgstr ""
+
+#: includes/settings.php:93
+msgid ""
+"If you want to add custom scripts that would be loaded after updating shop "
+"loop, eg: alert(\"hello\");"
+msgstr ""
+
+#: includes/settings.php:85
+msgid ""
+"If your theme/plugins load font awesome then you can disable by unchecking "
+"it."
+msgstr ""
+
+#: widgets/widget-attribute-filter.php:146 widgets/widget-price-filter.php:237
+#: widgets/widget-category-filter.php:123
+msgid "List"
+msgstr ""
+
+#: widgets/widget-price-filter.php:98
+msgid "Max Price"
+msgstr ""
+
+#: widgets/widget-price-filter.php:250 widgets/widget-price-filter.php:258
+#: widgets/widget-price-filter.php:270
+msgid "Max price"
+msgstr ""
+
+#: widgets/widget-active-filter.php:68
+msgid "Max Price: "
+msgstr ""
+
+#: widgets/widget-price-filter.php:97
+msgid "Min Price"
+msgstr ""
+
+#: widgets/widget-price-filter.php:248 widgets/widget-price-filter.php:256
+#: widgets/widget-price-filter.php:268
+msgid "Min price"
+msgstr ""
+
+#: widgets/widget-active-filter.php:64
+msgid "Min Price: "
+msgstr ""
+
+#: widgets/widget-attribute-filter.php:139
+msgid "No attribute found!"
+msgstr ""
+
+#: includes/settings.php:36
+msgid "No products container"
+msgstr ""
+
+#: widgets/widget-attribute-filter.php:171
+#: widgets/widget-category-filter.php:148
+msgid "Only show children of the current attribute"
+msgstr ""
+
+#: widgets/widget-attribute-filter.php:154
+#: widgets/widget-category-filter.php:131
+msgid "OR"
+msgstr ""
+
+#: widgets/widget-active-filter.php:60
+msgid "Orderby: "
+msgstr ""
+
+#: includes/settings.php:52
+msgid "Overlay background color"
+msgstr ""
+
+#: includes/settings.php:44
+msgid "Pagination container"
+msgstr ""
+
+#: includes/settings.php:60
+msgid "Product sorting"
+msgstr ""
+
+#: includes/settings.php:67
+msgid "Scroll to top"
+msgstr ""
+
+#: includes/settings.php:74
+msgid "Scroll to top offset"
+msgstr ""
+
+#: widgets/widget-active-filter.php:56
+msgid "Search For: "
+msgstr ""
+
+#: includes/settings.php:40
+msgid ""
+"Selector for tag that is holding no products found message. Most of cases "
+"you won't need to change this."
+msgstr ""
+
+#: includes/settings.php:48
+msgid ""
+"Selector for tag that is holding the pagination. Most of cases you won't "
+"need to change this."
+msgstr ""
+
+#: includes/settings.php:32
+msgid ""
+"Selector for tag that is holding the shop loop. Most of cases you won't need "
+"to change this."
+msgstr ""
+
+#: wcapf.php:963
+msgid "Settings"
+msgstr ""
+
+#. Author of the plugin
+msgid "Shamim Al Mamun"
+msgstr ""
+
+#: includes/settings.php:28
+msgid "Shop loop container"
+msgstr ""
+
+#: widgets/widget-attribute-filter.php:163
+#: widgets/widget-category-filter.php:140
+msgid "Show count"
+msgstr ""
+
+#: widgets/widget-price-filter.php:242
+msgid "Show currency"
+msgstr ""
+
+#: widgets/widget-attribute-filter.php:167
+#: widgets/widget-category-filter.php:144
+msgid "Show hierarchy"
+msgstr ""
+
+#: widgets/widget-active-filter.php:14
+msgid "Shows active filters so users can see and deactivate them."
+msgstr ""
+
+#: widgets/widget-price-filter.php:236
+msgid "Slider"
+msgstr ""
+
+#: widgets/widget-attribute-filter.php:121 widgets/widget-price-filter.php:230
+#: widgets/widget-active-filter.php:142 widgets/widget-category-filter.php:117
+msgid "Title:"
+msgstr ""
+
+#: widgets/widget-price-filter.php:249 widgets/widget-price-filter.php:257
+#: widgets/widget-price-filter.php:269
+msgid "to"
+msgstr ""
+
+#: includes/settings.php:107
+msgid ""
+"To clean transients check this checkbox and then press 'Save Changes' button."
+msgstr ""
+
+#: includes/settings.php:100
+msgid "To disable transients check this checkbox."
+msgstr ""
+
+#: wcapf.php:951
+msgid "To use WC Ajax Product Filter update your WooCommerce plugin."
+msgstr ""
+
+#. Base ID
+#: widgets/widget-active-filter.php:13
+msgid "WC Ajax Active Filters"
+msgstr ""
+
+#. Name of the plugin
+#: wcapf.php:198 includes/settings.php:12
+msgid "WC Ajax Product Filter"
+msgstr ""
+
+#. Base ID
+#: widgets/widget-attribute-filter.php:13
+msgid "WC Ajax Product Filter by Attribute"
+msgstr ""
+
+#. Base ID
+#: widgets/widget-category-filter.php:13
+msgid "WC Ajax Product Filter by Category"
+msgstr ""
+
+#. Base ID
+#: widgets/widget-price-filter.php:13
+msgid "WC Ajax Product Filter by Price"
+msgstr ""
+
+#: wcapf.php:941
+msgid "WC Ajax Product Filter needs WooCommerce plguin to work."
+msgstr ""
+
+#: includes/settings.php:78
+msgid "You need to change this value to match with your theme, eg: 100"
+msgstr ""

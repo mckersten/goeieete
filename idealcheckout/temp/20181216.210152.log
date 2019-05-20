@@ -1,0 +1,76 @@
+
+TEXT: array (
+        'order_id' => 'rEPIxQMLUIEwMoI8',
+        'order_code' => 'OVX4d8oRcCHebpyF795NLGxjdWYsuXfb',
+      )
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/setup.php
+LINE: 8
+
+
+TEXT: array (
+      )
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/setup.php
+LINE: 9
+
+
+TEXT: Fetching peer certificate for: https://betalen.rabobank.nl:443
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/includes/library.php
+LINE: 826
+
+
+TEXT: cURL Retrieved SSL Certificate:
+      *   Trying 2a02:26f0:7b:485::11fc...
+      * TCP_NODELAY set
+      * Connected to betalen.rabobank.nl (2a02:26f0:7b:485::11fc) port 443 (#0)
+      * Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+      * successfully set certificate verify locations:
+      *   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+        CApath: none
+      * NPN, negotiated HTTP1.1
+      * SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+      * Server certificate:
+      *  subject: businessCategory=Private Organization; 1.3.6.1.4.1.311.60.2.1.3=NL; serialNumber=30046259; C=NL; L=Utrecht; O=Cooperatieve Rabobank U.A.; OU=IT Nederland; CN=betalen.rabobank.nl
+      *  start date: Jun 11 00:00:00 2018 GMT
+      *  expire date: Jun 19 12:00:00 2019 GMT
+      *  subjectAltName: host "betalen.rabobank.nl" matched cert's "betalen.rabobank.nl"
+      *  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 Extended Validation Server CA
+      *  SSL certificate verify ok.
+      > GET /omnikassa-api-sandbox/gatekeeper/refresh HTTP/1.1
+      Host: betalen.rabobank.nl
+      Accept: */*
+      Authorization: Bearer eyJraWQiOiIvKzdpVE5PL0FmSEhKN05kYmFWVGcyZTR6eXFjN3dYV3pFT08wcktoU0NJPSIsImFsZyI6IlJTMjU2In0.eyJta2lkIjoyMDcxMSwiZW52IjoiUyIsImV4cCI6NzI1ODAyODQwMH0.snsCj7AoGGJoCJ2M2CIetfF0DFzXFxnDdJhmNdRQlkMWVMIIh3kWjf_CZjk_ysRnP7UMn3Gp_RneQZNVEXFSpoN6Bpn9nwaw7WSnYYoMUHJxox7WK-YXjcwNPZzTYnXN6Ra11A6X1NgNYYy9P_wJDR9xTrVNOGuFqRvBxYfTKCP848Hj9C3iLfrq77LN0OLtQDqy8gca6cYep1pesyDPlg2JQBKm4uN4ITNUvL9AMaI6tRqMwwnHHv9IIkDND-qFPiTZQKjhDXfnq3eqp8GExaUV0lTn42hkGMCZZs1s3GqwjH9R810FDwzBo4KVCrfB-8qrQswDPDpmsjT1PVAkIA
+      
+      < HTTP/1.1 200 OK
+      < Referrer-Policy: no-referrer
+      < X-Content-Type-Options: nosniff
+      < X-XSS-Protection: 1; mode=block
+      < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+      < Pragma: no-cache
+      < Expires: 0
+      < X-Frame-Options: DENY
+      < Vary: Accept-Encoding,User-Agent
+      < X-Cnection: close
+      < Content-Type: application/json;charset=UTF-8
+      < Content-Language: en-US
+      < P3P: policyref="/rabo/w3c/p3p.xml", CP="OTI CURa ADMa OUR NOR BUS UNI COM NAV"
+      < Strict-Transport-Security: max-age=31622400
+      < Content-Length: 271
+      < Date: Sun, 16 Dec 2018 20:01:52 GMT
+      < Connection: keep-alive
+      < Set-Cookie: JSESSIONID=0000ZD54Ds1-fgqb06lshtvIWbV:-1; Path=/; HttpOnly
+      < Set-Cookie: QPRDBETS=15e6XhJGQmmQOfMz/bjgFbriGuehz2SO; Path=/omnikassa-api-sandbox; Version=1; HttpOnly;  Secure
+      < Set-Cookie: TS01fd03d7=0188e14ba8c1d6e0656ff230ea1126945297609fd09b4dc0e4e5986110f68ee84be5aabcf79027bbf31e0990e2c193961ed8133a1716bb6fcf1000f9696740ba15af4e63d1; Path=/
+      < Set-Cookie: TS019a15b4=0188e14ba862e93cd20b8191510971a76ff09347729b4dc0e4e5986110f68ee84be5aabcf717ca8377c8757c357d7458dec2d012f23e6b98ab553f9ce62ae4d445f5bf9ba7; path=/omnikassa-api-sandbox
+      < Set-Cookie: QPRDBETG=FN/YgrhMtBf80dXVMF6Et0TCoMi0Qx9mbWvMaaJX4RU=;Path=/;Version=1;Secure
+      < Set-Cookie: RABOXSRFP=15PdX00kicF0Y0ANo6WaeLuwU3aZ6w02; Path=/omnikassa-api-sandbox; Version=1;  Secure
+      < Set-Cookie: BIGipServerpl_betalen-int.rabobank.nl-80=!HQtl7du7sYMQVpYSGsunPHNuWU8wOsS3hw8EEhyn33o9Ncxv0qSqhRK5QRgtcUQVMTXWCANHui4vSXk=; path=/; Httponly
+      < 
+      * Connection #0 to host betalen.rabobank.nl left intact
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/includes/library.php
+LINE: 690
+
+
+TEXT: Fetching peer certificate for: https://betalen.rabobank.nl:443
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/includes/library.php
+LINE: 826
+

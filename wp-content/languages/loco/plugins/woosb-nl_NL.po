@@ -1,0 +1,478 @@
+# Copyright (C) 2018 WooCommerce Product Bundles
+# This file is distributed under the same license as the WooCommerce Product Bundles package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Product Bundles\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:"
+"1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-05 08:16+0000\n"
+"PO-Revision-Date: 2018-12-05 08:17+0000\n"
+"Last-Translator: admin <phptesting2018@gmail.com>\n"
+"Language-Team: Nederlands\n"
+"Language: nl_NL\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: woo-product-bundle-premium/index.php:66,
+#: woo-product-bundle-premium/index.php:78,
+#: woo-product-bundle-premium/index.php:742,
+#: woo-product-bundle-premium/index.php:762
+msgid "Add to cart"
+msgstr "Bestellen"
+
+#: woo-product-bundle-premium/index.php:68,
+#: woo-product-bundle-premium/index.php:747
+msgid "Select options"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:71,
+#: woo-product-bundle-premium/index.php:752
+msgid "Read more"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:449
+msgid "Once Every 5 Minutes"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:562,
+#: woo-product-bundle-premium/index.php:562,
+#: woo-product-bundle-premium/index.php:573
+msgid "Woo Product Bundles"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:576
+msgid ""
+"Thank you for using our plugin! If you are satisfied, please reward it a "
+"full five-star %s rating."
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:579
+msgid "Reviews"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:581
+msgid "Changelogs"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:583
+msgid "Discussion"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:589
+msgid "How to use?"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:591,
+#: woo-product-bundle-premium/index.php:1060
+msgid "Settings"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:593
+msgid "Tools"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:595
+msgid "Premium Support"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:603
+msgid ""
+"When creating the product, please choose product data is \"Smart Bundle\" "
+"then you can see the search field to start search and add products to the "
+"bundle."
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:615
+msgid "General"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:619
+msgid "Show thumbnail"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:624,
+#: woo-product-bundle-premium/index.php:639,
+#: woo-product-bundle-premium/index.php:654,
+#: woo-product-bundle-premium/index.php:711,
+#: woo-product-bundle-premium/index.php:776,
+#: woo-product-bundle-premium/index.php:791,
+#: woo-product-bundle-premium/index.php:825,
+#: woo-product-bundle-premium/index.php:856,
+#: woo-product-bundle-premium/index.php:871,
+#: woo-product-bundle-premium/index.php:887,
+#: woo-product-bundle-premium/index.php:903
+msgid "Yes"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:628,
+#: woo-product-bundle-premium/index.php:643,
+#: woo-product-bundle-premium/index.php:658,
+#: woo-product-bundle-premium/index.php:681,
+#: woo-product-bundle-premium/index.php:700,
+#: woo-product-bundle-premium/index.php:715,
+#: woo-product-bundle-premium/index.php:780,
+#: woo-product-bundle-premium/index.php:795,
+#: woo-product-bundle-premium/index.php:814,
+#: woo-product-bundle-premium/index.php:829,
+#: woo-product-bundle-premium/index.php:860,
+#: woo-product-bundle-premium/index.php:875,
+#: woo-product-bundle-premium/index.php:891,
+#: woo-product-bundle-premium/index.php:907
+msgid "No"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:634
+msgid "Show quantity"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:649
+msgid "Show short description"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:664
+msgid "Show price"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:669
+msgid "Price"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:673
+msgid "Price HTML"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:677
+msgid "Subtotal"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:687
+msgid "Link to bundled product"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:692
+msgid "Yes, open in the same tab"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:696
+msgid "Yes, open in the new tab"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:706
+msgid "Change image"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:719
+msgid "Change the main image when choosing the variation of bundled products."
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:724
+msgid "Bundle price text"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:727
+msgid "Bundle price:"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:729
+msgid "The text before price when choosing variation in the bundle."
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:735
+msgid "\"Add to Cart\" button labels"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:739
+msgid "Archive/shop page"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:744
+msgid "For purchasable bundle."
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:749
+msgid "For purchasable bundle and has variable product(s)."
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:754
+msgid "For unpurchasable bundle."
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:759
+msgid "Single product page"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:767
+msgid "Cart & Checkout"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:771
+msgid "Auto calculate the weight"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:786
+msgid "Hide bundle name before bundled products"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:801
+msgid "Hide bundled products on cart & checkout page"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:806
+msgid "Yes, just show the main product"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:810
+msgid "Yes, but show bundled product names under the main product"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:820
+msgid "Hide bundled products on mini-cart"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:833
+msgid "Hide bundled products, just show the main product on mini-cart."
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:839,
+#: woo-product-bundle-premium/index.php:1595
+msgid "Search"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:843
+msgid "Search limit"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:851
+msgid "Search by SKU"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:866
+msgid "Search exact"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:878
+msgid "Match whole product title or content?"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:882
+msgid "Search sentence"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:894
+msgid "Do a phrase search?"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:898
+msgid "Accept same products"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:910
+msgid "If yes, a product can be added many times."
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:915
+msgid "Advance"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:919
+msgid "Method"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:924
+msgid "SESSION"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:928
+msgid "COOKIE"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:931
+msgid ""
+"The method was used to save the product bundles data when buying. Please "
+"only try to switch this option when the default does not work."
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:937
+msgid "Update Options"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:950
+msgid "Product bundles"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:955
+msgid "View all product bundles"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:962
+msgid "Update price"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:968
+msgid "Updated!"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:973,
+#: woo-product-bundle-premium/index.php:987
+msgid "Update price for all bundles"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:975
+msgid ""
+"The bundle price will be updated every 5 minutes automatically, you can "
+"click to update immediately."
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:982
+msgid "Update price (AJAX)"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:990
+msgid ""
+"Use this tool if your website has too many products. It will updates price "
+"for 100 products one time."
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1006
+msgid ""
+"Please select some product options before adding this bundle to the cart."
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1007
+msgid ""
+"Please choose at least one product before adding this bundle to the cart."
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1008
+msgid ""
+"Please choose at least [min] in the whole products before adding this bundle "
+"to the cart."
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1009
+msgid ""
+"Please choose maximum [max] in the whole products before adding this bundle "
+"to the cart."
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1016
+msgid "saved"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1074
+msgid "Premium support"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1256
+msgid "Have an error when adding this bundle to the cart."
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1380,
+#: woo-product-bundle-premium/index.php:1403
+msgid "Bundled Products"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1431
+msgid "(bundled in %s)"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1526
+msgid "No results found for \"%s\""
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1567,
+#: woo-product-bundle-premium/index.php:1583
+msgid "Smart bundle"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1574
+msgid "Smart Bundle"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1597
+msgid "settings"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1602
+msgid "searching..."
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1604
+msgid "Type any keyword to search"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1610
+msgid "Selected"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1645
+msgid "Regular price"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1654
+msgid ""
+"Disable auto calculate Regular price? If yes, %s click here to set Regular "
+"price %s"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1658
+msgid "Sale price"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1664
+msgid "of Regular price or %s click here to set Sale price %s"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1668
+msgid "Optional products"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1671
+msgid "Buyer can change the quantity of bundled products?"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1675
+msgid "Limit each item"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1687
+msgid "Limit whole items"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1700
+msgid "Before text"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1704
+msgid "The text before bundled products"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1709
+msgid "After text"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1713
+msgid "The text after bundled products"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1886
+msgid "Choose"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:1892
+msgid "Clear"
+msgstr ""
+
+#: woo-product-bundle-premium/index.php:2062
+msgid ""
+"WooCommerce Product Bundles require WooCommerce version 3.0.0 or greater."
+msgstr ""

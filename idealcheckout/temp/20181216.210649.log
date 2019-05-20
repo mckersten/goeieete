@@ -1,0 +1,42 @@
+
+TEXT: Fetching peer certificate for: https://www.ideal-checkout.nl:443
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/includes/library.php
+LINE: 826
+
+
+TEXT: cURL Retrieved SSL Certificate:
+      *   Trying 2a00:1e28:3:2640::1...
+      * TCP_NODELAY set
+      * Connected to www.ideal-checkout.nl (2a00:1e28:3:2640::1) port 443 (#0)
+      * Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+      * successfully set certificate verify locations:
+      *   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+        CApath: none
+      * NPN, negotiated HTTP1.1
+      * SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+      * Server certificate:
+      *  subject: CN=www.ideal-checkout.nl
+      *  start date: May 24 00:00:00 2018 GMT
+      *  expire date: Jan 26 12:00:00 2019 GMT
+      *  subjectAltName: host "www.ideal-checkout.nl" matched cert's "www.ideal-checkout.nl"
+      *  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=RapidSSL RSA CA 2018
+      *  SSL certificate verify ok.
+      > POST /api/changelog/ HTTP/1.1
+      Host: www.ideal-checkout.nl
+      Accept: */*
+      Content-Type: application/json
+      Content-Length: 50
+      
+      * upload completely sent off: 50 out of 50 bytes
+      < HTTP/1.1 200 OK
+      < Server: nginx
+      < Date: Sun, 16 Dec 2018 20:06:49 GMT
+      < Content-Type: text/html; charset=UTF-8
+      < Transfer-Encoding: chunked
+      < Connection: keep-alive
+      < Vary: Accept-Encoding
+      < 
+      * Connection #0 to host www.ideal-checkout.nl left intact
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/includes/library.php
+LINE: 690
+

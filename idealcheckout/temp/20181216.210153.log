@@ -1,0 +1,76 @@
+
+TEXT: cURL Retrieved SSL Certificate:
+      * Hostname betalen.rabobank.nl was found in DNS cache
+      *   Trying 2a02:26f0:7b:485::11fc...
+      * TCP_NODELAY set
+      * Connected to betalen.rabobank.nl (2a02:26f0:7b:485::11fc) port 443 (#0)
+      * Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+      * successfully set certificate verify locations:
+      *   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+        CApath: none
+      * NPN, negotiated HTTP1.1
+      * SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+      * Server certificate:
+      *  subject: businessCategory=Private Organization; 1.3.6.1.4.1.311.60.2.1.3=NL; serialNumber=30046259; C=NL; L=Utrecht; O=Cooperatieve Rabobank U.A.; OU=IT Nederland; CN=betalen.rabobank.nl
+      *  start date: Jun 11 00:00:00 2018 GMT
+      *  expire date: Jun 19 12:00:00 2019 GMT
+      *  subjectAltName: host "betalen.rabobank.nl" matched cert's "betalen.rabobank.nl"
+      *  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 Extended Validation Server CA
+      *  SSL certificate verify ok.
+      > POST /omnikassa-api-sandbox/order/server/api/order HTTP/1.1
+      Host: betalen.rabobank.nl
+      Accept: */*
+      Authorization: Bearer eyJraWQiOiJHS0wiLCJhbGciOiJFUzI1NiJ9.eyJwayMiOjIwNzExLCJjaWQiOiIwMDJiLTA3MTEiLCJleHAiOjE1NDQ5OTQxMTJ9.Ek8ve3_ss4dr_FpVHi64KCrU2frWi_1Vtjb1Cfe1aG6of1YfRqJn3eqSUY8GOr5YwNJOzDAXSzbwOubYeyv7Rg
+      Content-Type: application/json
+      Content-Length: 560
+      
+      * upload completely sent off: 560 out of 560 bytes
+      < HTTP/1.1 403 Forbidden
+      < Referrer-Policy: no-referrer
+      < X-Content-Type-Options: nosniff
+      < X-XSS-Protection: 1; mode=block
+      < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+      < Pragma: no-cache
+      < Expires: 0
+      < X-Frame-Options: DENY
+      < Vary: Accept-Encoding,User-Agent
+      < X-Cnection: close
+      < Content-Type: application/json
+      < Content-Language: en-US
+      < P3P: policyref="/rabo/w3c/p3p.xml", CP="OTI CURa ADMa OUR NOR BUS UNI COM NAV"
+      < Strict-Transport-Security: max-age=31622400
+      < Content-Length: 67
+      < Date: Sun, 16 Dec 2018 20:01:53 GMT
+      < Connection: close
+      < Set-Cookie: JSESSIONID=0000lFzxxgIxqcY1itaFbxg8Y_7:-1; Path=/; HttpOnly
+      < Set-Cookie: TS01fd03d7=01129cd2d3b2a796d992549153ce5853bfb3021c9e6cadf8d0012a68421f7b2164f20cddd101af10e6fcb4caaa3ba9dd941d3322d7d829442344909f9971fe0ec4ce7391c6; Path=/
+      < Set-Cookie: BIGipServerpl_betalen-int.rabobank.nl-80=!i22GGbW03HxtD0ESGsunPHNuWU8wOhI9MsEJDvIZp5Ap2AkdjEq2lLc4hh6MHVDamc/sRiBGfIaRn5c=; path=/; Httponly
+      < 
+      * Closing connection 0
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/includes/library.php
+LINE: 690
+
+
+TEXT: array (
+        'timestamp' => '2018-12-16T21:01:52+01:00',
+        'merchantOrderId' => 'rEPIxQMLUIEwMoI8',
+        'amount' => 
+        array (
+          'currency' => 'EUR',
+          'amount' => 80228,
+        ),
+        'language' => 'nl',
+        'description' => 'Webshop order #rEPIxQMLUIEwMoI8',
+        'merchantReturnURL' => 'http://nieuw.goeieete.nl/idealcheckout/return.php?idealcheckout_order_id=rEPIxQMLUIEwMoI8&idealcheckout_order_code=OVX4d8oRcCHebpyF795NLGxjdWYsuXfb',
+        'paymentBrand' => 'IDEAL',
+        'paymentBrandForce' => 'FORCE_ALWAYS',
+        'signature' => 'aa7f9ac4dd1ef5f1f8b4f7be46a096920de2dc0e9f0fde717f06648e9208bf5ccf8945295fe8d4963e38b1f7778b73f6c28e79cd0e1a20e434bd40479b61b3d1',
+      )
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/gateways/ideal-omnikassa-v2/omnikassa.cls.php
+LINE: 364
+
+
+TEXT: {"errorCode":5001,"consumerMessage":"Invalid or missing signature"}
+FILE: /home/dkuzhwbn/domains/nieuw.goeieete.nl/public_html/idealcheckout/gateways/ideal-omnikassa-v2/omnikassa.cls.php
+LINE: 365
+

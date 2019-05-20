@@ -1,0 +1,352 @@
+# Translation of Plugins - Login Widget With Shortcode - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Login Widget With Shortcode - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-08-02 06:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: nl_NL\n"
+"Project-Id-Version: Plugins - Login Widget With Shortcode - Stable (latest "
+"release)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-02 06:33+0000\n"
+"Last-Translator: admin <phptesting2018@gmail.com>\n"
+"Language-Team: Nederlands"
+
+#: settings.php:173 settings.php:185
+msgid "General"
+msgstr "Algemeen"
+
+#: security.php:103
+msgid "Security code"
+msgstr "Beveiligingscode"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/login-sidebar-widget/"
+msgstr "https://wordpress.org/plugins/login-sidebar-widget/"
+
+#. Author of the plugin/theme
+msgid "aviplugins.com"
+msgstr "aviplugins.com"
+
+#. Author URI of the plugin/theme
+msgid "http://www.aviplugins.com/"
+msgstr "http://www.aviplugins.com/"
+
+#: settings.php:299
+msgid "Check to enable captcha on admin login form"
+msgstr "Vink aan om captcha in te schakelen op admin login"
+
+#: settings.php:308
+msgid "Check to enable captcha on user login form"
+msgstr "Vink aan om captcha in te schakelen op gebruikersnaam"
+
+#: settings.php:398
+msgid "Reset Password Link Mail Subject"
+msgstr "Wachtwoord opnieuw instellen Link Mail Subject"
+
+#: settings.php:259
+msgid "Register Link"
+msgstr "Registreerlink"
+
+#: settings.php:339
+msgid "Error: Invalid Username"
+msgstr "Fout: Ongeldige gebruikersnaam"
+
+#: settings.php:340
+msgid "Error message for wrong Username"
+msgstr "Foutmelding voor verkeerde gebruikersnaam"
+
+#: settings.php:344
+msgid "Error: Invalid Username & Password"
+msgstr "Fout: Ongeldige gebruikersnaam & wachtwoord"
+
+#: settings.php:345
+msgid "Error message for wrong Password"
+msgstr "Foutmelding voor verkeerd wachtwoord"
+
+#: settings.php:392
+msgid "From Email"
+msgstr "Van e-mailadres"
+
+#: settings.php:394
+msgid ""
+"This will be the from email address in the emails. This will make sure that "
+"the emails do not go to a spam folder."
+msgstr ""
+"Dit is het afzenderadres in de e-mails. Dit zorgt ervoor dat de e-mails niet "
+"naar een spammap gaan."
+
+#: settings.php:404
+msgid "Reset Password Link Mail Body"
+msgstr "Reset wachtwoord Link Mail Body"
+
+#: settings.php:405
+msgid "This mail will fire when a user request for a new password."
+msgstr ""
+"Deze mail wordt uitgeschakeld wanneer een gebruiker een nieuw wachtwoord "
+"aanvraagt."
+
+#: settings.php:412
+msgid "New Password Mail Subject"
+msgstr "Nieuw Wachtwoord Mail Onderwerp"
+
+#: settings.php:418
+msgid "New Password Mail Subject Body"
+msgstr "Nieuw Wachtwoord Mail Onderwerp Body"
+
+#: settings.php:419
+msgid ""
+"This mail will fire when a user clicks on the password reset link provided "
+"in the above mail."
+msgstr ""
+"Deze e-mail wordt uitgeschakeld als een gebruiker klikt op de link voor "
+"wachtwoordresultaat die in de bovenstaande e-mail is vermeld."
+
+#: settings.php:281 settings.php:326 settings.php:353 settings.php:380
+#: settings.php:431 settings.php:512
+msgid "Save"
+msgstr "Opslaan"
+
+#: settings.php:485
+msgid "Social Comments Settings"
+msgstr "Social Reacties Instellingen"
+
+#: settings.php:489
+msgid "Facebook Comments"
+msgstr "Facebook Reacties"
+
+#: settings.php:493
+msgid "Language"
+msgstr "Taal"
+
+#: settings.php:501
+msgid "Width"
+msgstr "Breedte"
+
+#: settings.php:502
+msgid "In Percent (%)"
+msgstr "In percentage (%)"
+
+#: settings.php:507
+msgid "Default is 10"
+msgstr "Standaard is 10"
+
+#: settings.php:497
+msgid "Color Scheme"
+msgstr "Kleurenschema"
+
+#: settings.php:505
+msgid "No of Comments"
+msgstr "Aantal reacties"
+
+#: forgot_pass_class.php:94
+msgid "New Password successfully sent to your mail address."
+msgstr "Nieuw wachtwoord succesvol verzonden naar je e-mailadres."
+
+#: forgot_pass_class.php:100
+msgid "Not a Valid Key."
+msgstr "Geen geldige sleutel"
+
+#: settings.php:177 settings.php:388
+msgid "Email Settings"
+msgstr "E-mail instellingen"
+
+#: settings.php:178 settings.php:439
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: settings.php:338
+msgid "Invalid Username Message"
+msgstr "Ongeldige gebruikersnaamboodschap"
+
+#: settings.php:343
+msgid "Invalid Password Message"
+msgstr "Ongeldige wachtwoordboodschap"
+
+#: settings.php:175 settings.php:334
+msgid "Error Message"
+msgstr "Foutmelding"
+
+#: settings.php:293
+msgid "Captcha on Admin Login"
+msgstr "Captcha op Admin login"
+
+#: settings.php:302
+msgid "Captcha on User Login"
+msgstr "Captcha op gebruikers login"
+
+#: security.php:69 security.php:101
+msgid "Captcha"
+msgstr "Captcha"
+
+#: settings.php:174 settings.php:289
+msgid "Security"
+msgstr "Beveiliging"
+
+#: security.php:85 security.php:92
+msgid "Security code do not match."
+msgstr "Beveiligingscode komt niet overeen."
+
+#: login_log.php:35
+msgid "Status"
+msgstr "Status"
+
+#: login_log.php:34
+msgid "Time"
+msgstr "Tijd"
+
+#: login_log.php:32
+msgid "IP"
+msgstr "IP"
+
+#: login_log.php:33
+msgid "Message"
+msgstr "Bericht"
+
+#: login_log.php:28
+msgid "Clear"
+msgstr "Wis"
+
+#: login_log.php:28
+msgid "Login Log"
+msgstr "Login Log"
+
+#: login_afo_widget.php:119
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: login_afo_widget.php:123
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: login_afo_widget.php:48
+msgid "Remember Me"
+msgstr "Onthoud mij"
+
+#: login_afo_widget.php:64
+msgid "Register"
+msgstr "Account aanmaken"
+
+#: forgot_pass_class.php:17
+msgid "Email"
+msgstr "E-mail"
+
+#: login_afo_widget.php:133
+msgid "Login"
+msgstr "Inloggen"
+
+#: settings.php:176 settings.php:361
+msgid "Styling"
+msgstr "Opmaak"
+
+#: forgot_pass_class.php:21
+msgid "Submit"
+msgstr "Verzenden"
+
+#: login_afo_widget.php:56
+msgid "Lost Password?"
+msgstr "Wachtwoord vergeten?"
+
+#: login_afo_widget.php:217
+msgid "Username or password is empty!"
+msgstr "Gebruikersnaam of wachtwoord is leeg."
+
+#: forgot_pass_class.php:25
+msgid ""
+"Please enter your email. The password reset link will be provided in your "
+"email."
+msgstr ""
+"Vul je e-mailadres in. De link voor wachtwoordherstel wordt in je e-mail "
+"verstrekt."
+
+#: forgot_pass_class.php:111
+msgid "Email is empty!"
+msgstr "E-mail is leeg."
+
+#: forgot_pass_class.php:119
+msgid "Invalid E-mail address!"
+msgstr "Ongeldig e-mailadres."
+
+#: settings.php:200
+msgid "Or"
+msgstr "Of"
+
+#: login_afo_widget.php:149
+msgid "Logout"
+msgstr "Uitloggen"
+
+#: login_afo_widget.php:144 login_afo_widget.php:146
+msgid "Howdy"
+msgstr "Hoi"
+
+#: forgot_pass_class.php:90 forgot_pass_class.php:147
+msgid "Email failed to send for some unknown reason."
+msgstr "E-mail verzenden mislukt om onbekende reden."
+
+#. Plugin Name of the plugin/theme
+msgid "Login Widget With Shortcode"
+msgstr "Login Widget met Shortcode"
+
+#. Description of the plugin/theme
+msgid ""
+"This is a simple login form in the widget. just install the plugin and add "
+"the login widget in the sidebar. Thats it. :)"
+msgstr ""
+"Dit is een simpel login formulier in de widget. Installeer gewoon de plugin "
+"en voeg de login widget toe in de zijbalk. Dat is het. :)"
+
+#: settings.php:370
+msgid "Check this and hit the save button to go back to default styling."
+msgstr ""
+"Controleer en vink dit aan en druk op de knop Opslaan om terug te gaan naar "
+"standaard styling."
+
+#: settings.php:255 settings.php:272
+msgid "Leave blank to not include the link"
+msgstr "Laat leeg om de link niet te gebruiken"
+
+#: settings.php:233
+msgid "Add Remember Me"
+msgstr "Onthoud mij"
+
+#: settings.php:242
+msgid "Forgot Password Link"
+msgstr "Wachtwoord vergeten Link"
+
+#: settings.php:219
+msgid "Link in Username"
+msgstr "Link in gebruikersnaam"
+
+#: settings.php:205
+msgid "Logout Redirect Page"
+msgstr "Logout doorverwijzen naar"
+
+#: forgot_pass_class.php:151
+msgid "We have just sent you an email with Password reset instructions."
+msgstr ""
+"We hebben je net een e-mail gestuurd met instructies om je wachtwoord te "
+"kunnen herstellen."
+
+#: login_afo_widget.php:10
+msgid "This is a simple login form in the widget."
+msgstr "Dit is een simpel inlogformulier in de widget."
+
+#: settings.php:369
+msgid "Load Default Styles"
+msgstr "Laad standaard styling"
+
+#: settings.php:189
+msgid "Login Redirect Page"
+msgstr "Login doorverwijzen naar"
+
+#: login_afo_widget.php:39
+msgid "Title"
+msgstr "Titel"
+
+#: settings.php:165
+msgid "Login Widget Settings"
+msgstr "Login Widget instellingen"

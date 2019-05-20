@@ -1,0 +1,1158 @@
+# Translation of Plugins - Content Aware Sidebars &#8211; Unlimited Widget Areas - Stable (latest release) in Danish
+# This file is distributed under the same license as the Plugins - Content Aware Sidebars &#8211; Unlimited Widget Areas - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-09-08 18:44:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: da_DK\n"
+"Project-Id-Version: Plugins - Content Aware Sidebars &#8211; Unlimited Widget Areas - Stable (latest release)\n"
+
+#. Author of the plugin/theme
+msgid "Joachim Jensen - DEV Institute"
+msgstr "Joachim Jensen - DEV Institute"
+
+#: admin/sidebar-edit.php:742
+msgid "Helpful Links"
+msgstr "Hjælpsomme links"
+
+#: lib/wp-content-aware-engine/view/group_template.php:13
+msgid "Or not"
+msgstr "Eller ikke"
+
+#: lib/wp-content-aware-engine/module/post_type.php:243
+#: lib/wp-content-aware-engine/module/post_type.php:344
+msgid "Shop Page"
+msgstr "Shop-side"
+
+#: admin/sidebar-edit.php:100
+msgid "Where do you want to show it?"
+msgstr "Hvor vil du gerne vise den?"
+
+#: admin/sidebar-edit.php:82
+msgid "BuddyPress Groups (Pro Feature)"
+msgstr "BuddyPress-grupper (Pro Feature)"
+
+#: view/notice_review.php:28
+msgid "I already rated it"
+msgstr "Jeg har allerede bedømt"
+
+#: view/notice_review.php:28
+msgid "No, not good enough"
+msgstr "Nej, ikke godt nok"
+
+#: view/notice_review.php:28
+msgid "OK, you deserve it"
+msgstr "OK, du fortjener det"
+
+#: view/notice_review.php:24
+msgid "Your help is much appreciated. Thank you,"
+msgstr "Jeg sætter stor pris på din hjælp. Mange tak,"
+
+#: view/notice_review.php:19
+msgid "May I ask you to %ssupport it with a 5-star rating%s? I have spent countless hours on the plugin, and this will help make it even better."
+msgstr "Må jeg spørge dig, om du vil %sstøtte det med en 5-stjernet bedømmelse%s? Jeg har brugt utallige timer på pluginnet, og dette vil hjælpe med at forbedre det."
+
+#: view/notice_review.php:14
+msgid "Hey %s, you have used %s for some time now, and I hope you like it so far!"
+msgstr "Hey %s, du har brugt %s i et stykke tid nu, og jeg håber du synes godt om det!"
+
+#: view/meta_box_support.php:19
+msgid "Translate plugin &amp; get Pro version"
+msgstr "Oversæt plugin &amp; få Pro-versionen"
+
+#: lib/wp-content-aware-engine/core.php:731
+msgid "Loading more results"
+msgstr "Henter flere resultater"
+
+#: freemius.php:56
+msgid "Hey %1$s"
+msgstr "Hey %1$s"
+
+#: app.php:172 view/meta_box_support.php:15
+msgid "Documentation & FAQ"
+msgstr "Dokumentation & FAQ"
+
+#: view/meta_box_support.php:14
+msgid "Sidebar not displayed where expected?"
+msgstr "Sidebar vises ikke som forventet?"
+
+#: view/meta_box_design.php:93
+msgid "Link Hover Color"
+msgstr "Hover link farve"
+
+#: view/meta_box_design.php:87
+msgid "Link Color"
+msgstr "Link-farve"
+
+#: view/meta_box_design.php:81
+msgid "Title Color"
+msgstr "Titel-farve"
+
+#: view/meta_box_design.php:75
+msgid "Text Color"
+msgstr "Tekst-farve"
+
+#: view/meta_box_design.php:72
+msgid "Text"
+msgstr "Tekst"
+
+#: view/meta_box_design.php:65
+msgid "Border Color"
+msgstr "Kant farve"
+
+#: view/meta_box_design.php:59
+msgid "Border Width"
+msgstr "Kant bredde"
+
+#: view/meta_box_design.php:44
+msgid "Background Color"
+msgstr "Baggrundsfarve"
+
+#: view/meta_box_design.php:36 view/meta_box_design.php:55
+msgid "Left"
+msgstr "Venstre"
+
+#: view/meta_box_design.php:34 view/meta_box_design.php:53
+msgid "Right"
+msgstr "Højre"
+
+#: view/meta_box_design.php:31 view/meta_box_design.php:50
+msgid "Padding"
+msgstr "Fyldning"
+
+#: view/meta_box_design.php:25
+msgid "Gap"
+msgstr "Mellemrum"
+
+#: view/meta_box_design.php:21
+msgid "columns"
+msgstr "kolonner"
+
+#: view/meta_box_design.php:19
+msgid "Columns"
+msgstr "Kolonner"
+
+#: admin/sidebar-edit.php:827 sidebar.php:128
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/sidebar-edit.php:722
+msgid "Styles"
+msgstr "Stil"
+
+#: admin/screen_widgets.php:181
+msgid "Design Sidebar"
+msgstr "Design sidebar"
+
+#: admin/screen_widgets.php:181
+msgid "Schedule Sidebar"
+msgstr "Planlæg sidebar"
+
+#: admin/admin.php:131
+msgid "and so much more..."
+msgstr "og meget mere..."
+
+#: admin/admin.php:127
+msgid "Design Sidebars"
+msgstr "Design sidebars"
+
+#: admin/admin.php:126
+msgid "Insert Sidebars in Theme Hooks"
+msgstr "Indsæt sidebars i tema-hooks"
+
+#: admin/admin.php:125
+msgid "Extra Display Conditions"
+msgstr "Ekstra sidebar-betingelser"
+
+#: view/meta_box_html.php:76
+msgid "Widget Title"
+msgstr "Widget-titel"
+
+#: view/meta_box_design.php:41 view/meta_box_html.php:58
+msgid "Widget"
+msgstr "Widget"
+
+#: view/meta_box_html.php:94
+msgid "By default styling will be inherited from the Target Sidebar."
+msgstr "Stilen vil som standard blive nedarvet fra hoved sidebar."
+
+#: view/conditions_after.php:18
+msgid "Like it? %1$sGet the Business Plan today for less than %2$s per site!%3$s"
+msgstr "Synes godt om? %1$sPrøv Business Plan i dag for under %2$s per websted!%3$s"
+
+#: sidebar.php:152
+msgid "HTML"
+msgstr "HTML"
+
+#: view/meta_box_design.php:16
+msgid "Layout"
+msgstr "Layout"
+
+#: admin/sidebar-edit.php:200 admin/sidebar-edit.php:756
+msgid "Design"
+msgstr "Design"
+
+#. Description of the plugin/theme
+msgid "Unlimited custom sidebars and widget areas for any post, page, category etc."
+msgstr "Ubegrænsede sidebars og widget-områder til ethvert indlæg, enhver side, kategori, osv."
+
+#: lib/wp-content-aware-engine/view/group_template.php:39
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: lib/wp-content-aware-engine/view/condition_options.php:30
+msgid "Auto-select new children of selected items"
+msgstr "Auto-vælg nye under-elementer af valgte elementer"
+
+#: admin/sidebar-list-table.php:611
+msgid "Duplicate"
+msgstr "Kopier"
+
+#. translators: %s: sidebar title
+#: admin/sidebar-list-table.php:610
+msgid "Duplicate %s"
+msgstr "Kopier %s"
+
+#: admin/sidebar-edit.php:334
+msgid "You are not allowed to delete this sidebar."
+msgstr "Du har ikke tilladelse til at slette denne sidebar."
+
+#: admin/sidebar-edit.php:302
+msgid "You are not allowed to move this sidebar to the Trash."
+msgstr "Du har ikke tilladelse til at flytte denne sidebar til papirkurven."
+
+#: admin/sidebar-edit.php:184 admin/sidebar-edit.php:515
+msgid "You are not allowed to create sidebars."
+msgstr "Du har ikke tilladelse til at oprette sidebars."
+
+#: admin/sidebar-edit.php:159 admin/sidebar-edit.php:513
+#: admin/sidebar-edit.php:518
+msgid "You are not allowed to edit this sidebar."
+msgstr "Du har ikke tilladelse til at redigere denne sidebar."
+
+#: admin/admin.php:122
+msgid "Enhance your sidebars and widget areas with: %s and more."
+msgstr "Forbedr dine sidebars og widget-områder med: %s og mere."
+
+#: admin/admin.php:100
+msgid "You do not have access to this screen."
+msgstr "Du har ikke adgang til denne side."
+
+#: admin/screen_widgets.php:205
+msgid "This sidebar is already scheduled to be activated. Do you want to activate it now?"
+msgstr "Denne sidebar er planlagt til at blive aktiveret. Vil du aktivere den nu?"
+
+#: admin/sidebar-edit.php:749 admin/sidebar-edit.php:756
+msgid "Pro"
+msgstr "Pro"
+
+#: admin/admin.php:145
+msgid "Read More"
+msgstr "Læs mere"
+
+#: lib/wp-content-aware-engine/module/bp_member.php:36
+msgid "All Sections"
+msgstr "Alle sektioner"
+
+#: lib/wp-content-aware-engine/module/bp_member.php:34
+msgid "BuddyPress Profiles"
+msgstr "BuddyPress-profiler"
+
+#: sidebar.php:134
+msgid "Target Sidebar"
+msgstr "Vært-sidebar"
+
+#: admin/sidebar-overview.php:296
+msgid "Undo"
+msgstr "Fortryd"
+
+#: admin/sidebar-overview.php:234
+msgid "You are not allowed to delete this item."
+msgstr "Du har ikke tilladelse til at slette dette element."
+
+#: admin/sidebar-overview.php:219
+msgid "You are not allowed to restore this item from the Trash."
+msgstr "Du har ikke tilladelse til at gendanne dette element fra papirkurven."
+
+#: admin/sidebar-overview.php:200
+msgid "You are not allowed to move this item to the Trash."
+msgstr "Du har ikke tilladelse til at flytte dette emne til papirkurven."
+
+#. translators: %s: search keywords
+#: admin/sidebar-overview.php:134
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Søgeresultater for &#8220;%s&#8221;"
+
+#. translators: %s: post title
+#: admin/sidebar-list-table.php:641
+msgid "Delete &#8220;%s&#8221; permanently"
+msgstr "Slet &#8220;%s&#8221; permanent"
+
+#: admin/sidebar-list-table.php:633
+msgctxt "verb"
+msgid "Trash"
+msgstr "Slet"
+
+#. translators: %s: post title
+#: admin/sidebar-list-table.php:632
+msgid "Move &#8220;%s&#8221; to the Trash"
+msgstr "Flyt &#8220;%s&#8221; til papirkurven"
+
+#. translators: %s: post title
+#: admin/sidebar-list-table.php:624
+msgid "Restore &#8220;%s&#8221; from the Trash"
+msgstr "Genskab &#8220;%s&#8221; fra papirkurven"
+
+#. translators: %s: sidebar title
+#: admin/sidebar-list-table.php:603
+msgid "Edit &#8220;%s&#8221;"
+msgstr "Rediger &#8220;%s&#8221;"
+
+#: admin/sidebar-list-table.php:538
+msgid "Missed schedule"
+msgstr "Missede planlagt"
+
+#: admin/sidebar-list-table.php:526
+msgid "Until %s"
+msgstr "Indtil %s"
+
+#. translators: Sidebar status date and time format, see http://php.net/date
+#: admin/sidebar-list-table.php:525 admin/sidebar-list-table.php:531
+msgid "Y/m/d g:i:s a"
+msgstr "Y/m/d h:i:s"
+
+#. translators: Sidebar status date format, see http://php.net/date
+#: admin/sidebar-list-table.php:523 admin/sidebar-list-table.php:535
+msgid "Y/m/d"
+msgstr "d.m.Y"
+
+#: admin/sidebar-list-table.php:420
+msgid "%s is currently editing"
+msgstr "%s redigerer i øjeblikket"
+
+#. translators: %s: post title
+#: admin/sidebar-list-table.php:405
+msgid "&#8220;%s&#8221; (Edit)"
+msgstr "&#8220;%s&#8221; (rediger)"
+
+#: admin/sidebar-list-table.php:363
+msgid "Select %s"
+msgstr "Vælg %s"
+
+#: admin/sidebar-list-table.php:309 sidebar.php:121
+msgctxt "option"
+msgid "Action"
+msgstr "Handling"
+
+#: admin/sidebar-list-table.php:308
+msgctxt "column name"
+msgid "Title"
+msgstr "Titel"
+
+#: admin/sidebar-list-table.php:280
+msgid "Empty Trash"
+msgstr "Tøm papirkurv"
+
+#: admin/sidebar-list-table.php:253 admin/sidebar-list-table.php:625
+msgid "Restore"
+msgstr "Gendan"
+
+#: admin/sidebar-list-table.php:205
+msgid "Inactive <span class=\"count\">(%s)</span>"
+msgid_plural "Inactive <span class=\"count\">(%s)</span>"
+msgstr[0] "Inaktivt <span class=\"count\">(%s)</span>"
+msgstr[1] "Inaktive <span class=\"count\">(%s)</span>"
+
+#: admin/sidebar-list-table.php:204
+msgid "Active <span class=\"count\">(%s)</span>"
+msgid_plural "Active <span class=\"count\">(%s)</span>"
+msgstr[0] "Aktivt <span class=\"count\">(%s)</span>"
+msgstr[1] "Aktive <span class=\"count\">(%s)</span>"
+
+#: admin/sidebar-list-table.php:190
+msgctxt "sidebars"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alle <span class=\"count\">(%s)</span>"
+msgstr[1] "Alle <span class=\"count\">(%s)</span>"
+
+#: admin/sidebar-edit.php:1115
+msgid "F j, Y"
+msgstr "j. F Y"
+
+#: admin/admin.php:144
+msgid "Free updates and email support included."
+msgstr "Gratis opdateringer og e-mail support inkluderet."
+
+#: admin/admin.php:143
+msgid "You can upgrade without leaving the admin panel by clicking below."
+msgstr "Du kan opgradere uden at forlade kontrolpanelet ved at klikke nedenfor."
+
+#: admin/admin.php:137
+msgid "Get All Features With Content Aware Sidebars Pro"
+msgstr "Få alle funktioner med Content Aware Sidebars Pro"
+
+#: admin/admin.php:123
+msgid "Sync widgets across themes"
+msgstr "Synkroniser widgets mellem temaer"
+
+#: admin/admin.php:129
+msgid "Visibility for roles"
+msgstr "Synlighed for roller"
+
+#: view/meta_box_submit.php:16
+msgid "Activates on <b>%1$s</b>"
+msgstr "Aktiverer den <b>%1$s</b>"
+
+#. translators: Publish box date format, see http://php.net/date
+#: view/meta_box_submit.php:11
+msgid "M j, Y"
+msgstr "j. M Y"
+
+#: view/meta_box_schedule.php:16
+msgid "Display sidebar only in given time ranges on select days."
+msgstr "Vis kun sidebar i givne tidsrum på udvalgte dage."
+
+#: view/meta_box_status.php:38
+msgid "Never"
+msgstr "Aldrig"
+
+#: view/meta_box_status.php:28
+msgid "Select date"
+msgstr "Vælg dato"
+
+#: admin/sidebar-list-table.php:312 view/meta_box_status.php:16
+msgid "Status"
+msgstr "Status"
+
+#: admin/admin.php:130 admin/sidebar-edit.php:749
+msgid "Time Schedule"
+msgstr "Tidsskema"
+
+#: admin/sidebar-edit.php:715
+msgid "Sidebar Status"
+msgstr "Sidebar-status"
+
+#: admin/sidebar-edit.php:667
+msgid ""
+"Should the sidebar merge with a target sidebar or replace it? Maybe you want to insert it in your content with a shortcode.\n"
+"\n"
+"Display the sidebar for everyone or make it visible only for logged-in users.\n"
+"\n"
+" You are in control."
+msgstr ""
+"Skal denne sidebar flette med eller erstatte en mål-sidebar? Måske vil du indsætte den i dit indhold med en shortcode.\n"
+"\n"
+"Vis din sidebar til alle eller gør den synlig kun for brugere, der er logget ind.\n"
+"\n"
+"Du har kontrollen."
+
+#: admin/sidebar-edit.php:603
+msgid "Sidebar deactivated."
+msgstr "Sidebar deaktiveret."
+
+#: admin/sidebar-edit.php:599
+msgid "Sidebar activated."
+msgstr "Sidebar aktiveret."
+
+#: admin/sidebar-edit.php:440
+msgid "Enter title here"
+msgstr "Skriv titel her"
+
+#: admin/sidebar-edit.php:337 admin/sidebar-overview.php:237
+msgid "Error in deleting."
+msgstr "Fejl ved sletning."
+
+#: admin/sidebar-edit.php:327 admin/sidebar-overview.php:222
+msgid "Error in restoring from Trash."
+msgstr "Fejl ved gendannelse fra papirkurven."
+
+#: admin/sidebar-edit.php:324
+msgid "You are not allowed to restore this sidebar from the Trash."
+msgstr "Du har ikke tilladelse til at gendanne denne sidebar fra papirkurven."
+
+#: admin/sidebar-edit.php:310 admin/sidebar-overview.php:208
+msgid "Error in moving to Trash."
+msgstr "Fejl ved flytning til papirkurven."
+
+#: admin/sidebar-edit.php:306
+msgid "You cannot move this sidebar to the Trash. %s is currently editing."
+msgstr "Du kan ikke flytte denne sidebar til papirkurven. %s redigerer den i øjeblikket."
+
+#: admin/sidebar-edit.php:157 admin/sidebar-edit.php:255
+msgid "The sidebar no longer exists."
+msgstr "Sidebaren eksisterer ikke længere."
+
+#: admin/sidebar-edit.php:201 admin/sidebar-edit.php:729
+msgid "Advanced"
+msgstr "Avanceret"
+
+#: admin/sidebar-edit.php:198
+msgid "Conditions"
+msgstr "Betingelser"
+
+#: admin/sidebar-edit.php:161
+msgid "You cannot edit this sidebar because it is in the Trash. Please restore it and try again."
+msgstr "Du kan ikke redigere denne sidebar, fordi den er i papirkurven. Gendan den venligst og prøv igen."
+
+#: admin/sidebar-edit.php:76
+msgid "URLs (Pro Feature)"
+msgstr "URLs (Pro)"
+
+#: admin/quick_select.php:262 admin/screen_widgets.php:129
+#: admin/screen_widgets.php:172 admin/sidebar-list-table.php:545
+#: view/meta_box_submit.php:22
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: admin/screen_widgets.php:129 admin/screen_widgets.php:166
+#: admin/sidebar-list-table.php:519 view/meta_box_submit.php:19
+msgid "Active"
+msgstr "Aktiv"
+
+#. Author URI of the plugin/theme
+msgid "https://dev.institute"
+msgstr "https://dev.institute"
+
+#. Plugin URI of the plugin/theme
+msgid "https://dev.institute/wordpress-sidebars/"
+msgstr "https://dev.institute/wordpress-sidebars/"
+
+#: view/meta_box_submit.php:56
+msgid "Enable"
+msgstr "Aktiver"
+
+#: view/meta_box_submit.php:50 view/meta_box_submit.php:55
+msgid "Widget Revisions: %s"
+msgstr "Widget-revisioner: %s"
+
+#: view/conditions_after.php:14
+msgid "Upgrade to Pro"
+msgstr "Opgrader til Pro"
+
+#: lib/wp-content-aware-engine/module/post_type.php:396 sidebar.php:267
+msgid "(no title)"
+msgstr "(ingen titel)"
+
+#: lib/wp-pointer-tour/wp-pointer-tour.php:164
+msgid "Previous"
+msgstr "Forrige"
+
+#: admin/screen_widgets.php:202
+msgid "Expand"
+msgstr "Udvid"
+
+#: admin/screen_widgets.php:201
+msgid "Collapse"
+msgstr "Minimer"
+
+#: admin/sidebar-edit.php:1095
+msgid "User Roles available in Pro"
+msgstr "Brugerroller tilgængelige i Pro"
+
+#: admin/admin.php:128 admin/screen_widgets.php:181
+#: admin/sidebar-list-table.php:615
+msgid "Widget Revisions"
+msgstr "Widget-revisioner"
+
+#: view/sidebars_quick_select.php:38
+msgid "Display sidebars per %s etc. with the %s."
+msgstr "Vis sidebars per %s osv. i %s."
+
+#: view/sidebars_quick_select.php:37
+msgid "Note: Selected Sidebars are displayed on this %s specifically."
+msgstr "Bemærk: Valgte sidebars vises på denne %s specifikt."
+
+#: view/sidebars_quick_select.php:19
+msgid "Default"
+msgstr "Standard"
+
+#: view/sidebars_quick_select.php:40
+msgid "Sidebar Manager"
+msgstr "Sidebar Manager"
+
+#: admin/quick_select.php:224
+msgid "Archive Page"
+msgstr "Arkivside"
+
+#: admin/quick_select.php:216
+msgid "Page Template"
+msgstr "Side-skabelon"
+
+#: admin/quick_select.php:213
+msgid "Child Page"
+msgstr "Underside"
+
+#: admin/quick_select.php:210
+msgid "Author"
+msgstr "Forfatter"
+
+#: admin/quick_select.php:305 view/sidebars_quick_select.php:24
+msgid "Type to Add New Sidebar"
+msgstr "Skriv for at tilføje ny sidebar"
+
+#: admin/quick_select.php:301
+msgid "Create New"
+msgstr "Opret ny"
+
+#: admin/quick_select.php:238
+msgid "Sidebars - Quick Select"
+msgstr "Sidebars - Hurtigvalg"
+
+#: admin/sidebar-edit.php:683
+msgid "Finish Tour"
+msgstr "Afslut tour"
+
+#: admin/sidebar-edit.php:657
+msgid ""
+"Click on the input field and select the content you want.\n"
+"\n"
+"If you can't find the right content in the list, type something to search.\n"
+"\n"
+" You can add several types of content to the same group, try e.g. \"All Posts\" and an Author to target all posts written by that author. Awesome!"
+msgstr ""
+"Klik på et tekstfelt og vælg det indhold, som du vil.\n"
+"\n"
+"Hvis du ikke kan finde det ønskede indhold i listen, så prøv at skriv noget for at søge.\n"
+"\n"
+"Du kan tilføje flere typer indhold til samme gruppe, prøv f.eks. \"Alle indlæg\" og en forfatter for at vise denne sidebar ved alle indlæg skrevet af den forfatter. Sejt!"
+
+#: admin/sidebar-edit.php:639
+msgid "I know how to use it"
+msgstr "Jeg ved hvordan man bruger det"
+
+#: admin/sidebar-edit.php:631
+msgid ""
+"You've just installed or updated Content Aware Sidebars. Awesome!\n"
+"\n"
+"You can display sidebars on any page or in any context. If that is new to you, this 3 step interactive guide will show you just how easy it is."
+msgstr ""
+"Du har lige installeret eller opdateret Content Aware Sidebars. Sådan!\n"
+"\n"
+"Du kan vise sidebars på enhver side eller i enhver kontekst. Hvis det er helt nyt for dig, så vil denne 3-trins interaktive guide vise dig, hvor let det faktisk er."
+
+#: admin/sidebar-edit.php:630
+msgid "Get Started in 3 Easy Steps"
+msgstr "Kom i gang med 3 hurtige trin"
+
+#: lib/wp-content-aware-engine/module/bbpress.php:31
+msgid "All Profiles"
+msgstr "Alle profiler"
+
+#: lib/wp-content-aware-engine/module/author.php:29
+msgid "All Authors"
+msgstr "Alle forfattere"
+
+#: admin/screen_widgets.php:181 sidebar.php:212
+msgid "Sidebar Conditions"
+msgstr "Sidebar-betingelser"
+
+#: sidebar.php:116
+msgid "Logged-in Users"
+msgstr "Indloggede brugere"
+
+#: lib/wp-content-aware-engine/view/group_template.php:12
+msgid "Not"
+msgstr "Ikke"
+
+#: view/meta_box_status.php:35
+msgid "Deactivate"
+msgstr "Deaktiver"
+
+#: view/meta_box_status.php:25
+msgid "Activate"
+msgstr "Aktiver"
+
+#: admin/quick_select.php:302 view/meta_box_submit.php:25
+msgid "New"
+msgstr "Ny"
+
+#: app.php:173 app.php:176
+msgid "Support"
+msgstr "Support"
+
+#: freemius.php:56
+msgid "Please help us improve %2$s by securely sharing some usage data with %5$s. If you skip this, that's okay! %2$s will still work just fine."
+msgstr "Hjælp os med at forbedre %2$s ved at dele nogle brugsdata sikkert med %5$s. Hvis du springer dette over, er det helt okay! %2$s vil stadig virke, som det skal."
+
+#: admin/sidebar-edit.php:1104 admin/sidebar-list-table.php:506
+msgid "All Users"
+msgstr "Alle brugere"
+
+#: admin/sidebar-list-table.php:455
+msgid "Add sidebar at the bottom during merge"
+msgstr "Tilføj sidebar nedefra når der flettes"
+
+#: admin/sidebar-list-table.php:454
+msgid "Add sidebar at the top during merge"
+msgstr "Tilføj sidebar oppefra, når der flettes"
+
+#: view/meta_box_submit.php:37
+msgid "Update"
+msgstr "Opdater"
+
+#: admin/sidebar-edit.php:199
+msgid "Schedule"
+msgstr "Planlæg"
+
+#: admin/sidebar-list-table.php:261 view/meta_box_advanced.php:12
+msgid "Move to Trash"
+msgstr "Flyt til papirkurv"
+
+#: admin/sidebar-list-table.php:259 admin/sidebar-list-table.php:642
+#: view/meta_box_advanced.php:10
+msgid "Delete Permanently"
+msgstr "Slet permanent"
+
+#: app.php:177
+msgid "Upgrade"
+msgstr "Opgrader"
+
+#: view/meta_box_submit.php:51
+msgid "Browse revisions"
+msgstr "Gennemse ændringer"
+
+#: view/meta_box_submit.php:51
+msgctxt "revisions"
+msgid "Browse"
+msgstr "Gennemse"
+
+#: admin/sidebar-list-table.php:604 view/meta_box_submit.php:43
+msgid "Edit"
+msgstr "Rediger"
+
+#: view/meta_box_submit.php:42
+msgid "Status:"
+msgstr "Status:"
+
+#: admin/sidebar-list-table.php:311 sidebar.php:112
+msgid "Visibility"
+msgstr "Synlighed"
+
+#: admin/admin.php:145
+msgid "Upgrade Now"
+msgstr "Opgrader nu"
+
+#: view/meta_box_support.php:16
+msgid "Priority Email Support"
+msgstr "Prioriteret e-mail support"
+
+#: admin/sidebar-edit.php:224 view/meta_box_support.php:17
+msgid "Forum Support"
+msgstr "Forum support"
+
+#: admin/admin.php:133
+msgid "Content Aware Sidebars Pro"
+msgstr "Content Aware Sidebars Pro"
+
+#: admin/sidebar-edit.php:708
+msgid "Publish"
+msgstr "Udgiv"
+
+#: lib/wp-content-aware-engine/view/group_template.php:35
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+#: lib/wp-content-aware-engine/module/pods.php:29
+msgid "All Pods Pages"
+msgstr "Alle Pods Pages"
+
+#: lib/wp-content-aware-engine/module/pods.php:28
+msgid "Pods Pages"
+msgstr "Pods Pages"
+
+#: admin/sidebar-edit.php:644
+msgid ""
+"With this dropdown you can select on what conditions the sidebar should be displayed.\n"
+"\n"
+"Content Aware Sidebars has built-in support for many types of content and even other plugins!\n"
+"\n"
+"Select something to continue the tour. You can change it later."
+msgstr ""
+"Med denne dropdown kan du vælge hvilke betingelser, denne sidebar skal vises under.\n"
+"\n"
+"Content Aware Sidebars har indbygget understøttelse af mange typer indhold og endda andre plugins!\n"
+"\n"
+"Vælg noget for at fortsætte guiden. Du kan altid ændre det senere."
+
+#: admin/sidebar-edit.php:643
+msgid "Select Content Type"
+msgstr "Vælg type af indhold"
+
+#: admin/sidebar-edit.php:638
+msgid "Start Quick Tour"
+msgstr "Begynd hurtig tour"
+
+#: lib/wp-content-aware-engine/view/condition_options.php:24
+msgid "Negate conditions"
+msgstr "Omvend betingelser"
+
+#: lib/wp-content-aware-engine/view/group_template.php:20
+#: lib/wp-content-aware-engine/view/meta_box.php:18
+msgid "Select content type"
+msgstr "Vælg type af indhold"
+
+#: lib/wp-content-aware-engine/module/page_template.php:35
+msgid "All Templates"
+msgstr "Alle skabeloner"
+
+#: lib/wp-content-aware-engine/core.php:729
+msgid "Searching"
+msgstr "Søger"
+
+#: lib/wp-content-aware-engine/core.php:581
+msgid "Conditions updated"
+msgstr "Betingelser opdateret"
+
+#: lib/wp-content-aware-engine/core.php:553
+msgid "Could not delete conditions"
+msgstr "Kunne ikke slette betingelser"
+
+#: lib/wp-content-aware-engine/core.php:464
+msgid "Conditional Logic"
+msgstr "Betingelseslogik"
+
+#: lib/wp-pointer-tour/wp-pointer-tour.php:165
+msgid "Next"
+msgstr "Næste"
+
+#: lib/wp-pointer-tour/wp-pointer-tour.php:163
+msgid "Close"
+msgstr "Luk"
+
+#: admin/sidebar-edit.php:677
+msgid ""
+"That's it! Now you can start creating sidebars and display them on your own conditions.\n"
+"\n"
+"If you need more help, click on the \"Help\" tab here."
+msgstr ""
+"Det var det! Nu kan du begynde at oprette sidebars og vise dem på dine egne betingelser.\n"
+"\n"
+"Hvis du har brug for mere hjælp, så klik på fanen \"Hjælp\" her."
+
+#: admin/sidebar-edit.php:676
+msgid "Help and Support"
+msgstr "Hjælp og support"
+
+#: admin/sidebar-edit.php:666
+msgid "Options, options"
+msgstr "Mange valgmuligheder"
+
+#: view/meta_box_support.php:13
+msgid "Get Started"
+msgstr "Kom i gang"
+
+#: admin/quick_select.php:259 admin/screen_widgets.php:169
+#: admin/sidebar-list-table.php:540
+#: lib/wp-content-aware-engine/module/post_type.php:392
+msgid "Scheduled"
+msgstr "Planlagt"
+
+#: lib/wp-content-aware-engine/module/post_type.php:377
+msgid "Sticky"
+msgstr "Fastgjort"
+
+#. translators: post state
+#: lib/wp-content-aware-engine/module/post_type.php:389
+msgctxt "post state"
+msgid "Pending"
+msgstr "Afventer"
+
+#: lib/wp-content-aware-engine/module/post_type.php:385
+msgid "Draft"
+msgstr "Kladde"
+
+#: lib/wp-content-aware-engine/module/post_type.php:382
+msgid "Private"
+msgstr "Privat"
+
+#: lib/wp-content-aware-engine/module/post_type.php:373
+msgid "Password protected"
+msgstr "Adgangskodebeskyttet"
+
+#: lib/wp-content-aware-engine/module/taxonomy.php:48
+msgid "Taxonomies"
+msgstr "Taksonomier"
+
+#: lib/wp-content-aware-engine/module/static.php:49
+msgid "404 Page"
+msgstr "404-side"
+
+#: lib/wp-content-aware-engine/module/static.php:48
+msgid "Search Results"
+msgstr "Søgeresultater"
+
+#: lib/wp-content-aware-engine/module/static.php:47
+msgid "Front Page"
+msgstr "Forside"
+
+#: lib/wp-content-aware-engine/module/static.php:35
+msgid "Static Pages"
+msgstr "Statiske sider"
+
+#: lib/wp-content-aware-engine/module/post_type.php:240
+#: lib/wp-content-aware-engine/module/post_type.php:341
+msgid "Blog Page"
+msgstr "Blog-side"
+
+#: lib/wp-content-aware-engine/module/post_type.php:247
+#: lib/wp-content-aware-engine/module/post_type.php:348
+#: lib/wp-content-aware-engine/module/taxonomy.php:306
+#: lib/wp-content-aware-engine/module/taxonomy.php:341
+msgid "%s Archives"
+msgstr "Arkiver for %s"
+
+#: lib/wp-content-aware-engine/module/post_type.php:41
+msgid "Post Types"
+msgstr "Indholdstyper"
+
+#: lib/wp-content-aware-engine/module/polylang.php:28
+#: lib/wp-content-aware-engine/module/qtranslate.php:28
+#: lib/wp-content-aware-engine/module/transposh.php:28
+#: lib/wp-content-aware-engine/module/wpml.php:28
+msgid "Languages"
+msgstr "Sprog"
+
+#: lib/wp-content-aware-engine/module/page_template.php:34
+msgid "Page Templates"
+msgstr "Skabeloner"
+
+#: lib/wp-content-aware-engine/module/date.php:31
+msgid "Date Archives"
+msgstr "Dato-arkiver"
+
+#: lib/wp-content-aware-engine/module/date.php:29
+msgid "Dates"
+msgstr "Datoer"
+
+#: lib/wp-content-aware-engine/module/bbpress.php:30
+msgid "bbPress User Profiles"
+msgstr "bbPress brugerprofiler"
+
+#: lib/wp-content-aware-engine/module/author.php:28
+msgid "Authors"
+msgstr "Forfattere"
+
+#: lib/wp-content-aware-engine/core.php:732
+msgid "Conditions have unsaved changes. Do you want to continue and discard these changes?"
+msgstr "Dine betingelser har ændringer, der ikke er gemt. Ønsker du at fortsætte og kassere disse ændringer?"
+
+#: lib/wp-content-aware-engine/core.php:730
+msgid "No results found."
+msgstr "Ingen resultater fundet."
+
+#: lib/wp-content-aware-engine/view/condition_template.php:17
+msgid "And"
+msgstr "Og"
+
+#: lib/wp-content-aware-engine/view/group_template.php:11
+#: lib/wp-content-aware-engine/view/meta_box.php:14
+msgid "Or"
+msgstr "Eller"
+
+#: view/meta_box_submit.php:35
+msgid "Save"
+msgstr "Gem"
+
+#: lib/wp-content-aware-engine/core.php:545
+msgid "Unauthorized request"
+msgstr "Uautoriseret forespørgsel"
+
+#: lib/wp-content-aware-engine/core.php:178
+msgctxt "condition status"
+msgid "Negated"
+msgstr "Negeret"
+
+#: lib/wp-content-aware-engine/core.php:158
+msgid "Condition Group"
+msgstr "Betingelsesgruppe"
+
+#: admin/screen_widgets.php:204
+msgid "Filter Widgets"
+msgstr "Filtrer widgets"
+
+#: admin/screen_widgets.php:203
+msgid "Filter Sidebars"
+msgstr "Filtrer sidebars"
+
+#: view/meta_box_advanced.php:17 view/meta_box_advanced.php:19
+msgid "Order"
+msgstr "Rækkefølge"
+
+#: admin/sidebar-edit.php:222
+msgid "More Information"
+msgstr "Flere informationer"
+
+#: admin/sidebar-edit.php:218
+msgid "Each created condition group describe some specific content (conditions) that the current sidebar should be displayed with."
+msgstr "Hver oprettet betingelsesgruppe beskriver noget specifikt indhold (betingelser) som den nuværende sidebar skal vises ved."
+
+#: admin/sidebar-edit.php:217 admin/sidebar-edit.php:656
+#: lib/wp-content-aware-engine/core.php:157
+msgid "Condition Groups"
+msgstr "Betingelsesgrupper"
+
+#: admin/sidebar-edit.php:766
+msgid "Options"
+msgstr "Indstillinger"
+
+#. Plugin Name of the plugin/theme
+msgid "Content Aware Sidebars"
+msgstr "Content Aware Sidebars"
+
+#: admin/sidebar-edit.php:407 admin/sidebar-list-table.php:481
+#: admin/sidebar-overview.php:130
+msgid "Manage Widgets"
+msgstr "Håndter widgets"
+
+#: admin/sidebar-list-table.php:310
+msgid "Widgets"
+msgstr "Widgets"
+
+#: admin/screen_widgets.php:62 admin/sidebar-list-table.php:449
+msgid "Please update Host Sidebar"
+msgstr "Værts-sidebar skal opdateres"
+
+#: admin/sidebar-overview.php:280
+msgid "%s sidebar restored from the Trash."
+msgid_plural "%s sidebars restored from the Trash."
+msgstr[0] "%s sidebar genskabt fra papirkurven."
+msgstr[1] "%s sidebars genskabt fra papirkurven."
+
+#: admin/sidebar-overview.php:279
+msgid "%s sidebar moved to the Trash."
+msgid_plural "%s sidebars moved to the Trash."
+msgstr[0] "%s sidebar flyttet til papirkurven."
+msgstr[1] "%s sidebars flyttet til papirkurven."
+
+#: admin/sidebar-overview.php:278
+msgid "%s sidebar permanently deleted."
+msgid_plural "%s sidebars permanently deleted."
+msgstr[0] "%s sidebar slettet permanent."
+msgstr[1] "%s sidebars slettet permanent."
+
+#: admin/sidebar-overview.php:277
+msgid "%s sidebar not updated, somebody is editing it."
+msgid_plural "%s sidebars not updated, somebody is editing them."
+msgstr[0] "%s sidebar ikke opdateret, nogen redigerer den."
+msgstr[1] "%s sidebars ikke opdateret, nogen redigerer dem."
+
+#: admin/sidebar-overview.php:276
+msgid "%s sidebar updated."
+msgid_plural "%s sidebars updated."
+msgstr[0] "%s sidebar opdateret."
+msgstr[1] "%s sidebars opdateret."
+
+#. translators: Publish box date format, see http://php.net/date
+#: admin/sidebar-edit.php:602
+msgid "M j, Y @ G:i"
+msgstr "j. M, Y @ G:i"
+
+#: admin/sidebar-edit.php:600
+msgid "Sidebar scheduled for: <strong>%1$s</strong>."
+msgstr "Sidebar planlagt til: <strong>%1$s</strong>."
+
+#: admin/sidebar-edit.php:598
+msgid "Sidebar updated."
+msgstr "Sidebar opdateret."
+
+#: admin/sidebar-edit.php:596 admin/sidebar-overview.php:273
+msgid "Manage widgets"
+msgstr "Håndter widgets"
+
+#: sidebar.php:213
+msgid "No content. Please add at least one condition group to make the sidebar content aware."
+msgstr "Intet indhold. Tilføj mindst en betingelsesgruppe for at gøre sidebaren indholdsbevidst."
+
+#: sidebar.php:210
+msgid "No sidebars found in Trash"
+msgstr "Ingen sidebars fundet i papirkurven"
+
+#: admin/quick_select.php:307 sidebar.php:209
+msgid "No sidebars found"
+msgstr "Ingen sidebars fundet"
+
+#: sidebar.php:208
+msgid "Search Sidebars"
+msgstr "Søg sidebars"
+
+#: sidebar.php:207
+msgid "View Sidebar"
+msgstr "Vis sidebar"
+
+#: sidebar.php:206
+msgid "All Sidebars"
+msgstr "Alle sidebars"
+
+#: sidebar.php:205
+msgid "New Sidebar"
+msgstr "Ny sidebar"
+
+#: admin/screen_widgets.php:181 sidebar.php:204
+msgid "Edit Sidebar"
+msgstr "Rediger sidebar"
+
+#: sidebar.php:203
+msgid "Add New Sidebar"
+msgstr "Tilføj ny sidebar"
+
+#: sidebar.php:202
+msgctxt "sidebar"
+msgid "Add New"
+msgstr "Tilføj ny"
+
+#: sidebar.php:201 view/meta_box_html.php:40
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: sidebar.php:200
+msgid "Sidebars"
+msgstr "Sidebars"
+
+#: sidebar.php:148
+msgid "Place sidebar on top or bottom of host when merging."
+msgstr "Flet ind fra oven eller bunden."
+
+#: sidebar.php:146 view/meta_box_design.php:35 view/meta_box_design.php:54
+msgid "Bottom"
+msgstr "Bund"
+
+#: sidebar.php:145 view/meta_box_design.php:33 view/meta_box_design.php:52
+msgid "Top"
+msgstr "Top"
+
+#: sidebar.php:141
+msgid "Merge Position"
+msgstr "Fletteposition"
+
+#: sidebar.php:130
+msgid "Replace host sidebar, merge with it or add sidebar manually."
+msgstr "Erstat værts-sidebar, flet med den eller tilføj denne sidebar manuelt."
+
+#: sidebar.php:127
+msgid "Forced replace"
+msgstr "Erstat tvungent"
+
+#: sidebar.php:126
+msgid "Merge"
+msgstr "Flet"
+
+#: sidebar.php:125
+msgid "Replace"
+msgstr "Erstat"
+
+#: lib/wp-content-aware-engine/view/condition_options.php:18
+msgid "Archives"
+msgstr "Arkiver"
+
+#: lib/wp-content-aware-engine/view/condition_options.php:12
+msgid "Singulars"
+msgstr "Singulære"
+
+#: admin/sidebar-edit.php:223
+msgid "FAQ"
+msgstr "FAQ"
