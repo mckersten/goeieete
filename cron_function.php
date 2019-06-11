@@ -303,6 +303,7 @@ function send_PDF_mail($subject = 'test', $rec_name = '', $rec_email = '', $mail
     $headers1 = "From: info@goeieete.nl \r\n";
     $headers1 .= "Reply-To: info@goeieete.nl \r\n";
     $headers1 .= "CC: info@exulto.nl \r\n";
+    $headers1 .= "CC: goeieetetilburg@gmail.com \r\n";
     $headers1 .= "MIME-Version: 1.0 \r\n";
     $headers1 .= "Content-Type: text/html; charset=ISO-8859-1 \r\n";
 
