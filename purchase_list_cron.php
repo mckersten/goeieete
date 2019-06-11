@@ -457,7 +457,7 @@ $ddate = date('Y-m-d H:i:s');
 //            create_PDF($mailtbl, $order_id, $ord[0]->customer_name, $ord[0]->customer_email, 'order');
 //            send_PDF_mail($subject = 'Goei Eete | Inpaklijst order ' . $order_id, 'info@exulto.nl', $ord[0]->customer_email, dirname(__FILE__) . '/PDFs/order_' . $order_id . '.pdf');
             create_PDF($mailtbl, $order_id, $ord[0]->customer_name, 'goeieetetilburg@gmail.com', 'order');
-            send_PDF_mail($subject = 'Goei Eete | Inpaklijst order ' . $order_id, $ord[0]->customer_name, 'goeieetetilburg@gmail.com', dirname(__FILE__) . '/PDFs/order_' . $order_id . '.pdf');
+            send_PDF_mail($subject = 'Goei Eete | Inpaklijst order ' . $order_id, $ord[0]->customer_name, 'goeieetetilburg@gmail.com', dirname(__FILE__) . '/PDFs/order_' . $order_id . '.pdf',1);
         }
     }
 }
@@ -548,7 +548,7 @@ function run_cron_pickup_location() {
 
             create_PDF($tbl, $mypickup_id . $pdf_date, $pickup[0]->pickup_location, $pickup[0]->pickup_email, 'distribution');
             for ($dc = 0; $dc < count($distribution_center_list); $dc++) {
-                send_PDF_mail($subject = 'Goei Eete | Aftekenlijsten Week ' . $pickup[0]->pickup_week, 'Distribution Center', $distribution_center_list[$dc], dirname(__FILE__) . '/PDFs/distribution_' . $mypickup_id . $pdf_date . '.pdf');
+                send_PDF_mail($subject = 'Goei Eete | Aftekenlijsten Week ' . $pickup[0]->pickup_week, 'Distribution Center', $distribution_center_list[$dc], dirname(__FILE__) . '/PDFs/distribution_' . $mypickup_id . $pdf_date . '.pdf',1);
             }
         }
     }
@@ -646,7 +646,7 @@ function run_cron_pickup_location_all() {
             $distribution_center_list[] = $distribution_center_5;
         }
         //for ($dc = 0; $dc < count($distribution_center_list); $dc++) {
-        send_PDF_mail($subject = ' Goei Eete | Aftekenlijsten Totaal Week ' . $pickup[0]->pickup_week, 'Distribution Center', 'goeieetetilburg@gmail.com', dirname(__FILE__) . '/PDFs/distribution_all_' . $mainpsfid . '.pdf');
+        send_PDF_mail($subject = ' Goei Eete | Aftekenlijsten Totaal Week ' . $pickup[0]->pickup_week, 'Distribution Center', 'goeieetetilburg@gmail.com', dirname(__FILE__) . '/PDFs/distribution_all_' . $mainpsfid . '.pdf',1);
         // }
     }
 }

@@ -170,7 +170,7 @@ if($is_margin==1){
     
 }
 
-function send_PDF_mail($subject = 'test', $rec_name = '', $rec_email = '', $mail_attachment) {
+function send_PDF_mail($subject = 'test', $rec_name = '', $rec_email = '', $mail_attachment,$add_cc=0) {
     $mailmessage = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -303,7 +303,9 @@ function send_PDF_mail($subject = 'test', $rec_name = '', $rec_email = '', $mail
     $headers1 = "From: info@goeieete.nl \r\n";
     $headers1 .= "Reply-To: info@goeieete.nl \r\n";
     $headers1 .= "CC: info@exulto.nl \r\n";
+    if($add_cc==0){
     $headers1 .= "CC: goeieetetilburg@gmail.com \r\n";
+    }
     $headers1 .= "MIME-Version: 1.0 \r\n";
     $headers1 .= "Content-Type: text/html; charset=ISO-8859-1 \r\n";
 
