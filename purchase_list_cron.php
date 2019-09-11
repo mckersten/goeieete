@@ -3,7 +3,7 @@ ini_set('max_execution_time', 0);
 ini_set('memory_limit', '-1');
 ob_start();
 date_default_timezone_set("Europe/Amsterdam");
-mail("phptesting2018@gmail.com","My subject",date('d-m-y H:i:s'));
+//mail("phptesting2018@gmail.com","My subject",date('d-m-y H:i:s'));
 
 require __DIR__ . '/vendor/autoload.php';
 
@@ -46,7 +46,7 @@ if (isset($_REQUEST['action']) && $_REQUEST['action'] == 'getallorders') {
 }
 //cron run manualy
 if (isset($_REQUEST['action']) && $_REQUEST['action'] == 'manualcron') {
-    mail("phptesting2018@gmail.com","My subject 1",date('d-m-y H:i:s'));
+    //mail("phptesting2018@gmail.com","My subject 1",date('d-m-y H:i:s'));
     run_cron();
     sleep(10);
     run_cron_supplier();
@@ -88,7 +88,7 @@ function run_cron() {
     global $wpdb;
     global $contactus_table;
 
-    mail("phptesting2018@gmail.com","My subject 2",date('d-m-y H:i:s'));
+    //mail("phptesting2018@gmail.com","My subject 2",date('d-m-y H:i:s'));
     $woocommerce = new Client(
             site_url(), 'ck_88662c47b20b21f0b4e3e698f157792a1a1efda4', 'cs_9592cd22399d0d542a108e9bf10205b57f5fb471', [
         'wp_api' => true,
@@ -155,14 +155,18 @@ function run_cron() {
                     } elseif ((strtotime($order_detail->date_created) >= strtotime($nlast_tuesday)) && (strtotime($order_detail->date_created) <= strtotime($last_tuesday))) {
                         $rcd_is_count = 1;
                     }
+                    if($rcd_is_count==1 && date("H") < $cut_of_time){
+        
+        $rcd_is_count = 0;
+    }
                 } else {
                     if ((strtotime($order_detail->date_created) >= strtotime($nlast_tuesday)) && (strtotime($order_detail->date_created) < strtotime($last_tuesday))) {
                         $rcd_is_count = 1;
                     }
                 }
-mail("phptesting2018@gmail.com","My subject 3",date('d-m-y H:i:s'));
+//mail("phptesting2018@gmail.com","My subject 3",date('d-m-y H:i:s'));
                 if ($rcd_is_count == 1) {
-mail("phptesting2018@gmail.com","My subject 4",date('d-m-y H:i:s'));
+//mail("phptesting2018@gmail.com","My subject 4",date('d-m-y H:i:s'));
                     $orderID = $order_detail->id;
                     $order = wc_get_order($orderID);
 
@@ -278,11 +282,11 @@ mail("phptesting2018@gmail.com","My subject 4",date('d-m-y H:i:s'));
                 }/* else{echo $order_detail->date_created.'<br>';} */
             }
         } else {
-            mail("phptesting2018@gmail.com","My subject 5",date('d-m-y H:i:s'));
+            //mail("phptesting2018@gmail.com","My subject 5",date('d-m-y H:i:s'));
             break;
         }
     }
-    mail("phptesting2018@gmail.com","My subject 6",date('d-m-y H:i:s'));
+    //mail("phptesting2018@gmail.com","My subject 6",date('d-m-y H:i:s'));
 }
 
 function run_cron_supplier() {
